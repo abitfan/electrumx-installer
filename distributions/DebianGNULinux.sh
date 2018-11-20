@@ -1,4 +1,4 @@
-if [ "$VERSION_ID" !=  "8" && "$VERSION_ID" != "9" ]; then
+if [ "$VERSION_ID" !=  "8" ] && [ "$VERSION_ID" != "9" ]; then
 	_warning "Only Debian Stretch and Jessie are officially supported (but this might work)"
 fi
 
